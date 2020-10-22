@@ -1,0 +1,1479 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+a:link {
+  text-decoration: none;
+}
+body { 
+	font-family: montserrat
+}
+.topnav {
+  overflow: hidden;
+  background-color: #D90000;
+  padding: .25em .25em .25em .5em;
+}
+.topnav a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 900;
+  padding: 2em 1em 2em 1em;
+}
+a {
+  color: #D90000;
+}
+.topnav a:hover {
+  color: #000000
+}
+#buy {
+  padding: 0 0 0 9.5em;
+}
+#sell {
+  padding: 0 3em 0 5em;
+}
+#trade {
+  padding: 0;
+}
+.deer {
+  width: 800px;
+  padding: 1em 0 1em 3em;
+}
+h1 {
+  font-family: montserrat;
+  color: black;
+  font-size: 7em;
+  line-height: 1em;
+  font-weight: 900;
+  float: right;
+  clear: both;
+  position: absolute;
+  top: .5em;
+  left: 6.75em;
+}
+h2 {
+  font-family: montserrat;
+  font-size: 1.5em;
+  font-weight: normal;
+  float: right;
+  clear: both;
+  position: absolute;
+  top: 20em;
+  left: 32em;
+}
+#topthreelinks {
+ list-style-type: none;
+ text-decoration: none;
+ color: #D90000;
+ font-size: 5em;
+ font-weight: 900;
+ float: right;
+ position: absolute;
+ top: 6.5em;
+ left: 9em;
+ line-height: 1.25em;
+ }
+#topthreelinks a:hover {
+  color: #000000;
+}
+h3 {
+  font-family: montserrat;
+  color: white;
+  font-size: 2em;
+  background-color: #D90000;
+  padding: .25em .25em .25em 1em;
+  font-weight: 900
+}
+h4 {
+  font-family: montserrat;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 0;
+  margin-top: 7px;
+}
+p {
+  font-family: montserrat;
+  font-size: 1em;
+  line-height: 2px;
+  padding-bottom: 3em;
+}
+s {
+  color: black;
+}
+.price {
+  color: #D90000
+}
+.saleproducts {
+width: 100%;
+column-count: 4;
+padding: 40px;
+}
+#stickers {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#hula {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#trafficcone {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#fingerboards {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#fingerboards {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#lego {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#nestingdolls {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#pins {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#pencileraser {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#skater {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#tireguy {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#trophy {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+#candle {
+  width: 240px;
+  border: 1px solid;
+  border-color: black;
+}
+.newproducts {
+width: 100%;
+column-count: 4;
+padding: 40px;
+}
+footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 300px;
+   background-color: black;
+   color: white;
+   text-align: left;
+   column-count: 3;
+/*   column-rule-style: solid;
+   column-rule-width: 1px;
+   column-rule-color: white;
+   */
+}
+h5 {
+  font-size: 1em;
+  color: #D90000;
+  font-weight: 800;
+  padding-left: 50px;
+  line-height: 2em;
+  margin-bottom: .5em;
+}
+.about {
+  font-size: 13px;
+  line-height: 2em;
+  padding-left: 50px;
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
+#copyright {
+  font-size: 13px;
+  padding-left: 50px;
+  margin-top: 70px;
+}
+#signup {
+  font-size: 13px;
+  line-height: 1.5em;
+  padding-top: 50px;
+  margin-bottom: -30px;
+}
+.email {
+  width: 15em;
+  padding-left: 3em;
+  align-content: center;
+  margin-bottom: -5px;
+}
+#footerlinks {
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 3em;
+  padding-left: 10em;
+}
+#instagram {
+  width: 2.5em;
+  padding: 5em 0 0 0;
+}
+#facebook {
+  width: 2.5em;
+  padding: 0em .5em 0em .5em;
+}
+#twitter {
+  width: 2.5em;
+  padding: 0;
+}
+
+
+@media only screen and (max-width: 1400px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+  }
+  .deer {
+    width: 55%;
+    padding-bottom: 5em;
+  }
+  h1{
+    text-align: left;
+    float: none;
+    left: 6.5em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    left: 30.5em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 8.5em;
+  }
+  #signup {
+  font-size: 13px;
+  line-height: 1.5em;
+  padding-top: 50px;
+  margin-bottom: -30px;
+  padding-right: 10em;
+}
+.email {
+  width: 15em;
+  padding-left: 3em;
+  align-content: center;
+  margin-bottom: -5px;
+}
+}
+
+
+@media only screen and (max-width: 1342px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+  }
+  #buy {
+    padding: 0 0 0 6em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 50%;
+    padding-bottom: 5em;
+  }
+  h1{
+    left: 6em;
+    font-size: 6.5em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size: 1.5em;
+    top: 18em;
+    left: 26.25em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 8.15em;
+    font-size: 4.5em;
+    line-height: 1.25em;
+    top: 6em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 4;
+    padding: 3em;
+  }
+  footer {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 18.75em;
+      background-color: black;
+      color: white;
+      text-align: left;
+      column-count: 3;
+  }
+  .about {
+    font-size: .75em;
+    line-height: 2em;
+    padding-left: 4em;
+    margin-top: 2em;
+  }
+    #copyright {
+      font-size: .75em;
+      padding-left: 4em;
+      margin-top: 1em;
+  }
+    #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      padding-left: 3em;
+      font-size: 1em;
+  }
+    #signup {
+      font-size: .75em;
+      line-height: 2em;
+      padding-top: 2em;
+      padding-right: 10em;
+  }
+    .email {
+      width: 10em;
+      padding-left: 3em;
+      align-content: left;
+      margin-bottom: .25em;
+      padding-right: 2em;
+  }
+  #instagram {
+  width: 2em;
+  padding: 3em 0 0 0;
+  }
+  #facebook {
+    width: 2em;
+    padding: 0 .5em 0 .5em;
+  }
+  #twitter {
+    width: 2em;
+    padding: 0 0 0 .15em;
+  }
+
+}
+@media only screen and (max-width: 1266px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1.5em;
+  }
+  #buy {
+    padding: 0 0 0 9.5em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 48%;
+    padding-bottom: 5em;
+  }
+  h1{
+    left: 5.75em;
+    font-size: 6em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size: 1.25em;
+    top: 20em;
+    left: 28em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 8em;
+    font-size: 4em;
+    line-height: 1.25em;
+    top: 6.75em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 2;
+    padding-left: 3em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 18.75em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 3;
+  }
+    .about {
+    font-size: .75em;
+    line-height: 2em;
+    padding-left: 4em;
+    margin-top: 2em;
+  }
+    #copyright {
+      font-size: .75em;
+      padding-left: 4em;
+      margin-top: 1em;
+  }
+    #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      padding-left: 3em;
+      font-size: 1em;
+  }
+    #signup {
+      font-size: .75em;
+      line-height: 2em;
+      padding-top: 2em;
+      padding-right: 10em;
+  }
+    .email {
+      width: 10em;
+      padding-left: 3em;
+      align-content: left;
+      margin-bottom: .25em;
+      padding-right: 2em;
+  }
+  #instagram {
+  width: 2em;
+  padding: 3em 0 0 0;
+  }
+  #facebook {
+    width: 2em;
+    padding: 0 .5em 0 .5em;
+  }
+  #twitter {
+    width: 2em;
+    padding: 0 0 0 .15em;
+  }
+
+}
+@media only screen and (max-width: 1113px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1.5em;
+  }
+  #buy {
+    padding: 0 0 0 8em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 48%;
+    padding-bottom: 5em;
+  }
+  h1{
+    left: 6.5em;
+    font-size: 5em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size: 1.25em;
+    top: 17em;
+    left: 26.25em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 8em;
+    font-size: 3.75em;
+    line-height: 1.25em;
+    top: 6em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 2;
+    padding-left: 3em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 18.75em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 3;
+  }
+    h5 {
+      padding-left: 2.5em;
+  }
+    .about {
+    font-size: .75em;
+    line-height: 2em;
+    padding-left: 3em;
+    margin-top: 1em;
+  }
+
+    #copyright {
+      font-size: .75em;
+      padding-left: 3em;
+      margin-top: 0;
+  }
+    #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      padding-left: 3em;
+      font-size: 1em;
+  }
+    #signup {
+      font-size: .75em;
+      line-height: 2em;
+      padding-top: 2em;
+      padding-right: 7em;
+  }
+    .email {
+      width: 10em;
+      padding-left: 3em;
+      align-content: left;
+      margin-bottom: .25em;
+      padding-right: 2em;
+  }
+  #instagram {
+  width: 2em;
+  padding: 3em 0 0 0;
+  }
+  #facebook {
+    width: 2em;
+    padding: 0 .5em 0 .5em;
+  }
+  #twitter {
+    width: 2em;
+    padding: 0 0 0 .15em;
+  }
+
+}
+@media only screen and (max-width: 914px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1.25em;
+  }
+  #buy {
+    padding: 0 0 0 7em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 45%;
+  }
+  h1{
+    left: 5.75em;
+    font-size: 4.5em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size: 1.25em;
+    top: 15.5em;
+    left: 21em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 6.75em;
+    font-size: 3.5em;
+    line-height: 1em;
+    top: 5.5em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 2;
+    padding-left: 3em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 18.75em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 3;
+  }
+    h5 {
+      padding-left: 2.5em;
+  }
+    .about {
+    font-size: .75em;
+    line-height: 1.75em;
+    padding-left: 3em;
+    margin-top: 1em;
+  }
+
+    #copyright {
+      font-size: .75em;
+      padding-left: 3em;
+      margin-top: 0;
+  }
+    #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      padding-left: 3em;
+      font-size: 1em;
+  }
+    #signup {
+      font-size: .75em;
+      line-height: 1.75em;
+      padding-top: 2em;
+      padding-right: 6em;
+  }
+    .email {
+      width: 10em;
+      padding-left: 3em;
+      align-content: left;
+      margin-bottom: .25em;
+      padding-right: 4em;
+  }
+  #instagram {
+  width: 2em;
+  padding: 3em 0 0 0;
+  }
+  #facebook {
+    width: 2em;
+    padding: 0 .5em 0 .5em;
+  }
+  #twitter {
+    width: 2em;
+    padding: 0 0 0 .15em;
+  }
+
+}
+@media only screen and (max-width: 800px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1.25em;
+  }
+  #buy {
+    padding: 0 0 0 4.75em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 45%;
+    padding-bottom: 5em;
+  }
+  h1{
+    left: 5.45em;
+    font-size: 4.25em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size: 1em;
+    top: 17.75em;
+    left: 23.25em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 6.25em;
+    font-size: 3.25em;
+    line-height: 1em;
+    top: 5.5em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 2;
+    padding-left: 3em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 18.75em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 3;
+  }
+    h5 {
+      padding-left: 2.5em;
+      font-size: .85em;
+  }
+    .about {
+    font-size: .75em;
+    line-height: 1.5em;
+    padding-left: 3em;
+    margin-top: 1em;
+  }
+
+    #copyright {
+      font-size: .75em;
+      padding-left: 3em;
+      margin-top: 0;
+  }
+    #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      padding-left: 3em;
+      font-size: 1em;
+  }
+    #signup {
+      font-size: .75em;
+      line-height: 1.5em;
+      padding-top: 2em;
+      padding-right: 3em;
+  }
+    .email {
+      width: 10em;
+      padding-left: 3em;
+      align-content: left;
+      margin-bottom: .25em;
+      padding-right: 2em;
+  }
+  #instagram {
+  width: 2em;
+  padding: 3em 0 0 0;
+  }
+  #facebook {
+    width: 2em;
+    padding: 0 .5em 0 .5em;
+  }
+  #twitter {
+    width: 2em;
+    padding: 0 0 0 .15em;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1.25em;
+  }
+  #buy {
+    padding: 0 0 0 4em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 45%;
+    padding-bottom: 5em;
+  }
+  h1{
+    left: 5.5em;
+    font-size: 4em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size: 1em;
+    top: 17.25em;
+    left: 22.25em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 6.5em;
+    font-size: 3em;
+    line-height: 1em;
+    top: 5.75em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 2;
+    padding-left: 3em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 18.75em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 3;
+  }
+    h5 {
+      display: none;
+  }
+    .about {
+    font-size: .75em;
+    line-height: 2em;
+    padding-left: 3em;
+    margin-top: 2em;
+  }
+
+    #copyright {
+      font-size: .75em;
+      padding-left: 3em;
+      margin-top: 0;
+  }
+    #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      padding-left: 3em;
+      font-size: 1em;
+  }
+    #signup {
+      font-size: .75em;
+      line-height: 1.5em;
+      padding-top: 2em;
+      padding-right: 3em;
+  }
+    .email {
+      width: 10em;
+      padding-left: 3em;
+      align-content: left;
+      margin-bottom: .25em;
+      padding-right: 2em;
+  }
+  #instagram {
+  width: 2em;
+  padding: 3em 0 0 0;
+  }
+  #facebook {
+    width: 2em;
+    padding: 0 .5em 0 .5em;
+  }
+  #twitter {
+    width: 2em;
+    padding: 0 0 0 .15em;
+  }
+
+}
+
+@media only screen and (max-width: 743px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1.25em;
+  }
+  #buy {
+    padding: 0 0 0 4em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 50%;
+    padding-bottom: 5em;
+  }
+  h1{
+    left: 5.5em;
+    font-size: 4em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size: 1em;
+    top: 17.25em;
+    left: 22.25em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 6.5em;
+    font-size: 3em;
+    line-height: 1em;
+    top: 5.75em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 2;
+    padding-left: 3em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 15em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 2;
+  }
+    h5 {
+      display: none;
+  }
+    .about {
+      display: none;
+  }
+      #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      padding-left: 3em;
+      font-size: 1em;
+  }
+
+    #signup {
+      font-size: .75em;
+      line-height: 1.5em;
+      padding-top: 2em;
+      padding-right: 3em;
+  }
+    .email {
+      width: 10em;
+      padding-left: 3em;
+      align-content: left;
+      margin-bottom: .25em;
+      padding-right: 2em;
+  }
+    #instagram {
+      width: 2em;
+      padding: 3em 0 0 0;
+    }
+    #facebook {
+      width: 2em;
+      padding: 0 .5em 0 .5em;
+    }
+    #twitter {
+      width: 2em;
+      padding: 0 0 0 .15em;
+    }
+    #copyright {
+      display: none; 
+
+}
+
+@media only screen and (max-width: 678px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1.25em;
+  }
+  #buy {
+    padding: 0 0 0 3.5em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 50%;
+    padding-bottom: 2em;
+  }
+  h1{
+    left: 7.25em;
+    font-size: 3em;
+    padding-top: .5em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size: .75em;
+    font-weight: bold;
+    top: 19em;
+    left: 29em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 7.5em;
+    font-size: 2.5em;
+    line-height: 1.15em;
+    top: 5.75em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 2;
+    padding-left: 3em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 15em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 2;
+  }
+    h5 {
+      display: none;
+  }
+    .about {
+      display: none;
+  }
+      #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      padding-left: 3em;
+      font-size: 1em;
+  }
+
+    #signup {
+      font-size: .75em;
+      line-height: 1.5em;
+      padding-top: 2em;
+      padding-right: 3em;
+  }
+    .email {
+      width: 10em;
+      padding-left: 3em;
+      align-content: left;
+      margin-bottom: .25em;
+      padding-right: 2em;
+  }
+    #instagram {
+      width: 2em;
+      padding: 3em 0 0 0;
+    }
+    #facebook {
+      width: 2em;
+      padding: 0 .5em 0 .5em;
+    }
+    #twitter {
+      width: 2em;
+      padding: 0 0 0 .15em;
+    }
+    #copyright {
+      display: none; 
+
+}
+@media only screen and (max-width: 638px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1em;
+  }
+  #buy {
+    padding: 0 0 0 1.5em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 35%;
+    padding-bottom: 8em;
+
+  }
+  h1{
+    left: 4.75em;
+    font-size: 3.25em;
+    margin-top: 0;
+    padding-top: .5em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size: 1em;
+    font-weight: bold;
+    top: 13em;
+    left: 15.75em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 5.25em;
+    font-size: 2.5em;
+    line-height: 1.15em;
+    top: 5.5em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 2;
+    padding-left: 3em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 15em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 2;
+  }
+    h5 {
+      display: none;
+  }
+    .about {
+      display: none;
+  }
+      #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      padding-left: 3em;
+      font-size: 1em;
+  }
+
+    #signup {
+      font-size: .75em;
+      line-height: 1.5em;
+      padding-top: 2em;
+      padding-right: 3em;
+  }
+    .email {
+      width: 10em;
+      padding-left: 3em;
+      align-content: left;
+      margin-bottom: .25em;
+      padding-right: 2em;
+  }
+    #instagram {
+      width: 2em;
+      padding: 3em 0 0 0;
+    }
+    #facebook {
+      width: 2em;
+      padding: 0 .5em 0 .5em;
+    }
+    #twitter {
+      width: 2em;
+      padding: 0 0 0 .15em;
+    }
+    #copyright {
+      display: none; 
+
+}
+
+@media only screen and (max-width: 487px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1em;
+  }
+  #homelink {
+    display: none;
+  }
+  #buy {
+    padding: 0 0 0 1.5em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 45%;
+    padding-bottom: 10em;
+    padding-left: 0;
+
+  }
+  h1{
+    left: 2.25em;
+    font-size: 2.5em;
+    padding-top: 1em;
+    padding-left: 2.5em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size:  1em;
+    font-weight: bold;
+    top: 11.5em;
+    left: 12em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 4.75em;
+    font-size: 2em;
+    line-height: 1.15em;
+    top: 7em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 1;
+    padding-left: 3em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 18em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 1;
+  }
+    h5 {
+      display: none;
+  }
+    .about {
+      display: none;
+  }
+    #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      font-size: 1em;
+      text-align: center;
+      padding-left: 0;
+  }
+    #signup {
+      display: none;
+  }
+    .email {
+      display: none;
+  }
+  .submit {
+    display: none;
+  }
+    #instagram {
+      width: 2em;
+      padding: 1em 1em 1em 9em;
+    }
+    #facebook {
+      width: 2em;
+      padding: 1em 1em 1em 1em;
+    }
+    #twitter {
+      width: 2em;
+      padding: 1em 9em 1em 1em;
+    }
+    #copyright {
+      display: none;
+    }
+
+}
+
+@media only screen and (max-width: 320px)
+{
+  .topnav a {
+    float: none;
+    width: auto;
+    padding: .25em .25em .25em 1em;
+    font-size: 1em;
+  }
+  #homelink {
+    display: none;
+  }
+  #buy {
+    padding: 0 0 0 1.5em;
+  }
+  #sell {
+    padding: 0 2em 0 3em;
+  }
+  #trade {
+    padding: 0;
+  }
+  .deer {
+    width: 40%;
+    padding-bottom: 10em;
+    padding-left: 0;
+
+  }
+  h1{
+    left: 1.5em;
+    font-size: 2em;
+    padding-top: 1.5em;
+    padding-left: 2.5em;
+  }
+  h2 {
+    text-align: left;
+    float: none;
+    font-size:  1em;
+    font-weight: bold;
+    top: 10em;
+    left: 8.25em;
+  }
+  #topthreelinks {
+    text-align: left;
+    float: none;
+    left: 2.75em;
+    font-size: 2em;
+    line-height: 1.15em;
+    top: 6em;
+  }
+  h3 {
+    font-size: 1.5em;
+    background-color: #D90000;
+    padding: .25em .25em .25em 1em;
+    font-weight: 900
+  }
+  .saleproducts, .newproducts {
+    width: 100%;
+    column-count: 1;
+    padding-left: 2em;
+  }
+    footer {
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       height: 18em;
+       background-color: black;
+       color: white;
+       text-align: left;
+       column-count: 1;
+  }
+    h5 {
+      display: none;
+  }
+    .about {
+      display: none;
+  }
+    #footerlinks {
+      list-style-type: none;
+      text-decoration: none;
+      line-height: 2.25em;
+      font-size: 1em;
+      text-align: center;
+      padding-left: 0;
+  }
+    #signup {
+      display: none;
+  }
+    .email {
+      display: none;
+  }
+  .submit {
+    display: none;
+  }
+    #instagram {
+      width: 2em;
+      padding: 1em 1em 1em 4em;
+    }
+    #facebook {
+      width: 2em;
+      padding: 1em 1em 1em 1em;
+    }
+    #twitter {
+      width: 2em;
+      padding: 1em 4em 1em 1em;
+    }
+    #copyright {
+      display: none;
+    }
+
+}
+  
